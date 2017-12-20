@@ -53,7 +53,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-sass');
 
-  grunt.registerTask('default', ['concat', 'uglify']);
-  grunt.registerTask('watchFiles', ['watch' 'sass']);
+  grunt.registerTask('default', ['concat', 'uglify', 'sass']);
+  grunt.registerTask('watchFiles', ['watch', 'sass']);
 
 };
