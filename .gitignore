@@ -1,0 +1,6 @@
+# we can ignore stuff in here!
+
+node_modules
+.DS_Store
+*.psd
+assets/
